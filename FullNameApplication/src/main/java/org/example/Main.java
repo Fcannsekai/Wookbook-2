@@ -19,7 +19,6 @@ public class Main {
             System.out.println("Oh cool, you're a doctor.");
         }
 
-        // ✅ Correct method call
         String fullName = FullName.formatFullName(firstName, middleName, lastName, suffix);
 
         System.out.println("Full name: " + fullName);
